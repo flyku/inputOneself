@@ -1,0 +1,416 @@
+@charset "UTF-8";
+.wrap{
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    width: 1033px;
+    height: auto;
+    padding-bottom: 42px;
+}
+.input-head{
+	float: left;
+	width: 1011px;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 22px;
+	font-size: 16px;
+	background: #00aeef;
+	color: #fff;
+}
+.cont{
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+}
+.cont span a{
+	color: #666;
+}
+.cont .color-type{
+    color: #129af4;
+}
+.inputConfig-content{
+	float: left;
+	width: 1031px;
+	height: auto;
+	font-size: 16px;
+	color: #333;
+	border-left: solid 1px #dddcdd;
+	border-right: solid 1px #dddcdd;
+}
+.return{
+	display: block;
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	width: 160px;
+	height: 42px;
+	margin-left: -80px;
+	background: url(./images/returnBg.png) center center no-repeat;
+}
+.inputConfig-content p{
+	float: left;
+	width: 50%;
+	height: auto;
+	line-height: 25px;
+	text-align: left;
+	margin:10px 0px 10px 20%;
+}
+.inputConfig-content p span{
+	float: left;
+	margin-right: 30px;
+}
+.inputConfig-content p span.imgs{
+	display: inline-block;
+	padding-left:30px;
+	background:url(./images/radioBg.png) left center no-repeat;
+}
+.return-parent{
+	float: left;
+	position: relative;
+	width: 775px;
+	height: 95px;
+	border: solid 1px #dddcdd;
+}
+.return-parents{
+	float: left;
+	position: relative;
+	width: 1031px;
+	height: 110px;
+	border: solid 1px #dddcdd;
+}
+.save{
+	display: block;
+	position: absolute;
+	top: 35px;
+	left: 35%;
+	width: 160px;
+	height: 42px;
+	margin-left: -80px;
+	background: url(./images/inputSaveBg.png) center center no-repeat;
+}
+.giveup{
+	display: block;
+	position: absolute;
+	top: 35px;
+	left: 65%;
+	width: 160px;
+	height: 42px;
+	margin-left: -80px;
+	background: url(./images/inputNoBg.png) center center no-repeat;
+}
+
+/* 表单配置新增 */
+.inputConfig-left{
+	float: left;
+	width: 255px;
+	min-height: 968px;
+	border-top: solid 1px #dddcdd;
+	border-bottom: solid 1px #dddcdd;
+}
+.right-cont{
+	float: left;
+	width: 775px;
+}
+.inputConfig-right{
+	float: left;
+	width: 725px;
+	min-height: 857px;
+	padding:15px 0px 0px 55px;
+	border-top: solid 1px #dddcdd;
+	border-left: solid 1px #dddcdd;
+}
+.left-top{
+	float: left;
+	width: 100%;
+	height: 50px;
+	color: #333;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: solid 1px #dddcdd;
+}
+/* 左侧 */
+ul#input-list{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+ul#input-list li{
+	float: left;
+	width: 160px;
+	height: 40px;
+	padding-left: 95px;
+	color: #666;
+	line-height: 40px;
+}
+ul#input-list li:hover{
+	cursor:pointer;
+}
+ul#input-list li.liCurrent{
+	background-position:  65px -32px;
+	color: #2ea7e0;
+}
+ul#input-list .li1{
+	background: url(./images/liBg1.png) 65px 5px no-repeat;
+}
+ul#input-list .li2{
+	background: url(./images/liBg2.png) 65px 5px no-repeat;
+}
+ul#input-list .li3{
+	background: url(./images/liBg3.png) 65px 5px no-repeat;
+}
+ul#input-list .li4{
+	background: url(./images/liBg4.png) 65px 5px no-repeat;
+}
+ul#input-list .li5{
+	background: url(./images/liBg5.png) 65px 5px no-repeat;
+}
+ul#input-list .li6{
+	background: url(./images/liBg6.png) 65px 5px no-repeat;
+}
+ul#input-list .li7{
+	background: url(./images/liBg7.png) 65px 5px no-repeat;
+}
+/* 右侧 */
+div.inputConfig-right .input-list{
+	position: relative;
+	float: left;
+	width: 680px;
+	min-height: 38px;
+	padding: 15px 0px;
+	margin: 0px;
+}
+div.inputConfig-right .input-list.pTxtarea{
+	height: 90px;
+}
+div.inputConfig-right .input-list.pTxtarea span{
+	min-width: 162px;
+}
+div.inputConfig-right .input-list span{
+	float: left;
+	min-width: 100px;
+	max-width:340px; 
+	text-align: right;
+	line-height: 38px;
+	margin: 0px;
+}
+div.inputConfig-right .input-list .uploadSpan{
+	min-width: 162px;
+}
+div.inputConfig-right .input-list a.dailys {
+    position: absolute;
+    top: 24px;
+    right:198px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(./images/daily.png) 0 0 no-repeat;
+}
+div.inputConfig-right .input-list input{
+    float: left;
+    width: 310px;
+    height: 38px;
+    padding-left: 6px;
+    border: solid 1px #d9d9d9;
+    margin: 0px 0px 0px 25px;
+}
+div.inputConfig-right .input-list textarea{
+    float: left;
+    width: 310px;
+    height: 90px;
+    line-height: 20px;
+    padding-left: 6px;
+    border: solid 1px #d9d9d9;
+    margin: 0px 0px 0px 25px;
+}
+div.inputConfig-right .input-list span a{
+	float: left;
+	width: 22px;
+	height: 22px;
+}
+div.inputConfig-right .input-list span.aSpan{
+	margin-left: 25px;
+	padding-top: 10px;
+}
+.edit{
+	background: url(./images/compileBg.png) 1px 0px no-repeat;
+	margin-right: 22px;
+}
+.add{
+	background: url(./images/compileBg.png) -23px 0px no-repeat;
+	margin-right: 22px;
+}
+.dels{
+	background: url(./images/compileBg.png) -48px 0px no-repeat;
+	margin-right: 102px;
+}
+.nameEdit{
+	background: url(./images/compileBg.png) 1px 0px no-repeat;
+	margin: 9px 10px 0 0;
+}
+.nameDels{
+	background: url(./images/compileBg.png) -48px 0px no-repeat;
+	margin: 9px 10px 0 0;
+}
+div.inputConfig-right .input-list div{
+    float: left;
+	min-width: 98px;
+	max-width:500px; 
+	height: 38px;
+	text-align: right;
+	line-height: 38px;
+	margin: 0px;
+	background: url(./images/lableCheckboxBg.png) 0px center no-repeat
+}
+div.inputConfig-right .input-list .lableHover{
+	background: url(./images/lableCheckboxHoverBg.png) 0px center no-repeat
+}
+div.inputConfig-right .input-list input[type=checkbox]{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 10px 0px 0px 0px;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    background: rgba(255,255,255,0); 
+    outline: none;
+}
+div.inputConfig-right .input-list span.checkboxSpan{
+	margin-left: 25px;
+	text-align: left;
+	max-width: 230px;
+	height: 40px;
+	white-space:nowrap;
+	overflow: hidden;
+}
+div.inputConfig-right .input-list span.checkboxMargin{
+	margin: 10px 0px 0px 0px;
+}
+
+div.inputConfig-right .input-list div.radioLables{
+    float: left;
+	min-width: 260px;
+	max-width:340px; 
+	height: 38px;
+	text-align: right;
+	line-height: 38px;
+	margin: 0px;
+	background: url(./images/lablesBg.png) 0px center no-repeat
+}
+div.inputConfig-right .input-list div.lableRadioHover{
+	background: url(./images/lablesClickBg.png) 0px center no-repeat
+}
+div.inputConfig-right .input-list input[type=radio]{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 10px 0px 0px 0px;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    background: rgba(255,255,255,0);
+    outline: none;
+}
+div.inputConfig-right .input-list #File{
+	width: 75px;
+}
+div.inputConfig-right .input-list .fl{
+	margin-left: 12px;
+}
+div.inputConfig-right .input-list .checkboxMargin .inputEdit{
+    float: left;
+    width: 160px;
+    height: 30px;
+    padding-left: 6px;
+    border: solid 1px #d9d9d9;
+    margin: 4px 0px 0px 0px;
+}
+div.inputConfig-right .input-list span input.nameEdit{
+    float: left;
+    width: 150px;
+    height: 30px;
+    overflow: hidden;
+    padding-left: 6px;
+    border: solid 1px #d9d9d9;
+    margin: 4px 0px 0px 0px;
+    background: none;
+}
+ div.inputConfig-right .input-list span.inputNames{
+ 	max-width: 162px;
+ 	min-width: 162px;
+ 	height: 45px;
+    white-space: nowrap;
+ 	overflow: hidden;
+ }
+
+
+ 
+div.input-list {
+    position: relative;
+    float: left;
+    width: 710px;
+    min-height: 38px;
+    padding: 15px 0px 15px 150px;
+    margin: 0px;
+}
+
+div.input-list span{
+	float: left;
+	min-width: 100px;
+	max-width:340px; 
+	text-align: right;
+	line-height: 38px;
+	margin: 0px;
+}
+.onlyedit{    
+	position: absolute;
+	display: block;
+	top: 22px;
+	left: 164px;
+	width: 22px;
+    height: 22px;
+	background: url(../images/compileBg.png) 1px 0px no-repeat;
+    margin-right: 22px;
+}
+.onlyDels{   
+	position: absolute;
+	display: block;
+	top: 22px;
+	right: 114px;
+	width: 22px;
+    height: 22px;
+	background: url(../images/compileBg.png) -48px 0px no-repeat;
+    margin-right: 22px;
+}
+.layui-layer-content p.input-list {
+	padding:0px;
+}
+.layui-layer-content p.input-list a.dailys {
+	top:11px;
+}
+
+.layui-layer-content p.input-list select {
+    float: left;
+    width: 318px;
+    height: 40px;
+    border: solid 1px #d9d9d9;
+    padding-left: 10px;
+    margin: 0px 25px;
+}
+p.input-list select{
+    float: left;
+    width: 170px;
+    height: 35px;
+    border: solid 1px #d9d9d9;
+    padding-left: 10px;
+    margin: 0px 15px;
+}
+p.input-list a.datas {
+    position: absolute;
+    top: 10px;
+    right:60px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../images/daily.png) 0 0 no-repeat;
+}
